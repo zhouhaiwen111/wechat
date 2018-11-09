@@ -1,0 +1,47 @@
+<view class='header'>
+  <view class='pic'>
+  <image src='http://img.qqu.cc/uploads/allimg/160814/1-160Q4091H9.jpg'></image>
+  </view>
+  <view class='user'>欢迎：<open-data type="userNickName"></open-data></view>
+</view>
+<view class='center'>
+  <view class='top'>
+    <view><i class="icon iconfont icon-daifukuan"></i>待付款</view>
+    <view><i class="icon iconfont icon-daifahuo"></i>待发货</view>
+    <view><i class="icon iconfont icon-daifahuo"></i>待收货</view>
+  </view>
+   <view class='bottom'>
+    <view><i class="icon iconfont icon-daipingjia"></i>待评价</view>
+    <view ><i class="icon iconfont icon-shouhou"></i>售后</view>
+    <view class='order'>全部订单<i class="icon iconfont icon-icondayu"></i></view>
+  </view>
+</view>
+<view class='likes'>
+  <view class='title'>猜你喜欢</view>
+  <view class='all'>
+  <view class='item'><image  src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541081444574&di=0cfb2723bca7882fb7202b7ee65abce8&imgtype=0&src=http%3A%2F%2Fimg.qzone.la%2Fhtml%2Fupload%2F20141114%2F14159281741184.jpg'></image>
+  <view class='name'>白夜行</view>
+  <view class='price'>￥45.60</view>
+  </view>
+  <view class='item'><image  src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541081444574&di=0cfb2723bca7882fb7202b7ee65abce8&imgtype=0&src=http%3A%2F%2Fimg.qzone.la%2Fhtml%2Fupload%2F20141114%2F14159281741184.jpg'></image>
+  <view class='name'>白夜行</view>
+  <view class='price'>￥45.60</view>
+  </view>
+  <view class='item'><image  src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541081444574&di=0cfb2723bca7882fb7202b7ee65abce8&imgtype=0&src=http%3A%2F%2Fimg.qzone.la%2Fhtml%2Fupload%2F20141114%2F14159281741184.jpg'></image>
+  <view class='name'>白夜行</view>
+  <view class='price'>￥45.60</view>
+  </view>
+  <view class='item'><image  src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541081444574&di=0cfb2723bca7882fb7202b7ee65abce8&imgtype=0&src=http%3A%2F%2Fimg.qzone.la%2Fhtml%2Fupload%2F20141114%2F14159281741184.jpg'></image>
+  <view class='name'>白夜行</view>
+  <view class='price'>￥45.60</view>
+  </view>
+  <view class='item'><image  src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541081444574&di=0cfb2723bca7882fb7202b7ee65abce8&imgtype=0&src=http%3A%2F%2Fimg.qzone.la%2Fhtml%2Fupload%2F20141114%2F14159281741184.jpg'></image>
+  <view class='name'>白夜行</view>
+  <view class='price'>￥45.60</view>
+  </view>
+  <view class='item'><image  src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541081444574&di=0cfb2723bca7882fb7202b7ee65abce8&imgtype=0&src=http%3A%2F%2Fimg.qzone.la%2Fhtml%2Fupload%2F20141114%2F14159281741184.jpg'></image>
+  <view class='name'>白夜行</view>
+  <view class='price'>￥45.60</view>
+  </view>
+  </view>
+</view>

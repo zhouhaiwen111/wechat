@@ -1,0 +1,112 @@
+.tp-detail{
+  width: 100%;
+  height:1800rpx;
+}
+.tp-detail image{
+  width: 100%;
+  height: 500rpx;
+}
+.tp-detail .title{
+  font-size: 28rpx;
+  color: #666666;
+  margin-bottom: 24rpx;
+  margin-left: 15rpx;
+}
+.tp-detail .desc{
+  color: #666666;
+  font-size: 24rpx;
+  margin-left: 15rpx;
+}
+.tp-detail .price{
+  color: red;
+  margin-left: 15rpx;
+}
+.tp-detail .adv{
+  font-size: 36rpx;
+  text-align: center;
+  border: 4rpx solid red;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+.tp-detail .tp-ad view image{
+  width: 340rpx;
+  height: 340rpx;
+}
+.tp-detail .tp-ad{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin:35rpx 0;
+}
+.tp-detail .tp-ad view .words{
+  font-size: 26rpx;
+}
+.tp-detail .tp-ad view .mon{
+  color: red;
+  font-size: 30rpx;
+}
+.foot{
+  position: fixed;
+  left: 0;
+  bottom:0;
+}
+.footer{
+  display: flex;
+  width: 100%;
+  height: 100rpx;
+  position: relative;
+  background: #dedede;
+  
+}
+.footer .first{
+  width: auto;
+  height: auto;
+  margin-left: 23rpx;
+}
+.footer .first image{
+  width: 48rpx;
+  height: 48rpx;
+  left: 46rpx;
+  top:7rpx;
+  position: absolute;
+}
+.footer .first .con{
+  font-size: 24rpx;
+  margin-top: 60rpx;
+}
+.footer .second .car{
+  font-size: 24rpx;
+  margin-top: 60rpx;
+  margin-left: 28rpx;
+}
+ .footer .second image{
+  width: 48rpx;
+  height: 48rpx;
+  left: 155rpx;
+  top:7rpx;
+  position: absolute;
+}
+.footer .btn1{
+  background: #ff5;
+  width: 200rpx;
+  height: 70rpx;
+  font-size: 30rpx;
+ line-height: 70rpx;
+ margin-left: 100rpx;
+margin-top:15rpx;
+border-style: none;
+margin-right: 13rpx;
+}
+.footer .btn2{
+  background:red;
+  width: 200rpx;
+  height: 70rpx;
+  font-size: 30rpx;
+  color: white;
+  line-height: 70rpx;
+  margin-top:15rpx;
+  border-style: none;
+  margin-right: 20rpx;
+}
+

@@ -1,0 +1,25 @@
+<view class="tp-detail">
+<image src="{{list.img}}"></image>
+<view class='price'>￥{{list.price}}</view>
+<view class='title'>
+{{list.name}}
+</view>
+<view class='desc'>
+{{list.desc}}
+</view>
+<view class='adv'>为你推荐</view>
+<view class='tp-ad'>
+<view><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541563223684&di=5f75d05e10a5a6964a353a12fe6701d3&imgtype=0&src=http%3A%2F%2Fpic35.photophoto.cn%2F20150628%2F0867087326684309_b.jpg'></image><view class='words'>城南旧事</view><view class='mon'>￥123.56</view></view>
+<view><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541563223684&di=5f75d05e10a5a6964a353a12fe6701d3&imgtype=0&src=http%3A%2F%2Fpic35.photophoto.cn%2F20150628%2F0867087326684309_b.jpg'></image><view class='words'>城南旧事</view><view class='mon'>￥123.56</view></view>
+<view><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541563223684&di=5f75d05e10a5a6964a353a12fe6701d3&imgtype=0&src=http%3A%2F%2Fpic35.photophoto.cn%2F20150628%2F0867087326684309_b.jpg'></image><view class='words'>城南旧事</view><view class='mon'>￥123.56</view></view>
+<view><image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541563223684&di=5f75d05e10a5a6964a353a12fe6701d3&imgtype=0&src=http%3A%2F%2Fpic35.photophoto.cn%2F20150628%2F0867087326684309_b.jpg'></image><view class='words'>城南旧事</view><view class='mon'>￥123.56</view></view>
+</view>
+</view>
+<view class='foot'>
+<view class='footer'>
+<view class='first'><image src='../../assets/img/link.png'></image><view class='con'>联系客服</view></view>
+<view class='second'><image src='../../assets/img/cart1.png'></image><view class='car'>购物车</view></view>
+<button class='btn1' bindtap='addToCart' >加入购物车</button>
+<button class='btn2'>立即购买</button>
+</view>
+</view>

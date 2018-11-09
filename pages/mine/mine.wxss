@@ -1,0 +1,76 @@
+@import '../../libs/My-icon/My.wxss';
+.header{
+  width: 100%;
+  height: 400rpx;
+  background: skyblue;
+  position: relative;
+}
+.header image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%)
+}
+.header .user{
+  font-size: 28rpx;
+  position: absolute;
+  left:36%;
+  top:77%;
+}
+.center{
+  width: 100%;
+  height: 160rpx;
+  font-size: 28rpx;
+  color: #666666;
+}
+.center .top{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40rpx;
+  margin-top:20rpx;
+}
+.center .top view i{
+  padding-right:20rpx; 
+}
+.center .bottom view i{
+  padding-right:20rpx; 
+}
+.center .bottom .order i{
+  padding-right: 0rpx;
+}
+.center .bottom{
+  display: flex;
+  justify-content: space-around;
+}
+
+.likes{
+  width: 100%;
+  height: 800rpx;
+  
+}
+.likes .all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.likes .title{
+  font-size: 34rpx;
+  font-weight: 500;
+  margin-bottom:30rpx;
+  margin-left: 20rpx;
+}
+.likes .item image{
+  width: 200rpx;
+  height: 240rpx;
+}
+.likes .item .name{
+  font-size: 28rpx;
+}
+.likes .item .price{
+  font-size: 28rpx;
+  color: red;
+}

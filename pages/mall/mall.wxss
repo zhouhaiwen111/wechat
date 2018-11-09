@@ -1,0 +1,28 @@
+@import '../../libs/My-icon/My.wxss';
+.weui-navbar{
+  flex-direction: column;
+  left: 0;
+  top:0;
+  border-style: none;
+  width: auto;
+  margin-left: 20rpx;
+}
+
+.weui-tab__content{
+  margin-left: 200rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.weui-tab__content image{
+  width: 150rpx;
+  height: 200rpx;
+  margin-top:20rpx;
+  
+}
+.weui-tab__content .single{
+padding:0 10rpx;
+}
+.weui-tab__content view{
+  font-size: 30rpx;
+}

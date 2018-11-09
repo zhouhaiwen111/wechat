@@ -1,0 +1,38 @@
+page{
+  height: 100%;
+}
+.book-list{
+  height: 100%;
+}
+
+.tp-list{
+  display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.tp-list view image{
+  width: 350rpx;
+  height: 450rpx;
+  margin-top:20rpx;
+  position: relative;
+}
+.tp-list .words{
+  color: #666666;
+  font-size: 28rpx;
+}
+.tp-list .price{
+  color: red;
+  font-size: 32rpx;
+  margin-top:32rpx;
+}
+button{
+  width: 350rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 0;
+  top:400rpx;
+  opacity: .5;
+  line-height: 50rpx;
+  font-size: 28rpx;
+}

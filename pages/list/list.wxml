@@ -1,0 +1,11 @@
+
+<scroll-view 
+  scroll-y
+  bindscrolltolower="loadmore"
+  class='book-list'
+  >
+  <view class='tp-list'>
+  <view wx:for="{{list}}" wx:key="{{item.id}}" bindtap='todetail' data-id="{{item.id}}"><image src='{{item.img}}'><button catchtap='toAddCart' data-id="{{item.id}}">加入购物车</button></image><view class='words'>{{item.name}}</view><view class='price'>￥{{item.price}}</view></view>
+  </view>
+</scroll-view>
+
